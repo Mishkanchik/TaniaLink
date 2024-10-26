@@ -4,7 +4,7 @@
 
 
 body {
-    background: linear-gradient(135deg, #0c2442, #4f7492);
+    background: linear-gradient(135deg, #0a3d7a, #88beeb);
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -22,6 +22,7 @@ a{
 
 .number{
   font-size: 19px;
+  color: #a9c7e4;
 }
 
 
@@ -35,11 +36,9 @@ li{
     padding: 10px 70px;
     list-style: none;
     font-size: 16px;
-    background: linear-gradient(135deg, #acc9ff,#88c3da,#bedcf8 );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-weight: bold;
     margin-bottom: 20px;
+    color:#578ac9 ;
 }
 
 .button-29 {
@@ -51,7 +50,7 @@ li{
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
   box-sizing: border-box;
-  color: #a0a6d4;
+  color: #acacb3;
   cursor: pointer;
   display: inline-flex;
   font-family: "JetBrains Mono",monospace;
@@ -85,12 +84,12 @@ li{
 }
 
 .button-29:hover {
-  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #6a71a8 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #6c6d72 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
 .button-29:active {
-  box-shadow: #6a71a8 0 3px 7px inset;
+  box-shadow: #000008 0 3px 7px inset;
   transform: translateY(2px);
 }
 
@@ -100,7 +99,7 @@ li{
 .content{
     box-shadow: rgba(0, 0, 0, 0.66) 0px 22px 70px 4px;
     text-align: center;
-    background: linear-gradient(500deg,#4f7492 ,#0c2442 );
+    background: linear-gradient(500deg,#587994 ,#010e1d );
     border-radius: 20px;
     max-width: 600px;
     max-height: 300px;
