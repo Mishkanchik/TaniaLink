@@ -20,6 +20,12 @@ a{
     
 }
 
+.number{
+  font-size: 19px;
+}
+
+
+
 
 a:visited {
     color: inherit;
