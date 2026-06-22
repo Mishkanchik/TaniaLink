@@ -1,94 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./image/icon.png" type="image/x-icon">
-    <title>Shumilana Tania information</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shumilana Tania</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    
-        <div class="content">
 
-      
-            <div class="logo">Shumilana Tania</div>
-            <li>Phone number: 
-                <b class="number">0683368483</b>
-            </li>
-            <div class="social-networks">
-                
-                <a rel="nofollow" target="_blank" title="Telegram" onclick="fbq('track', 'Contact');" href="https://t.me/TaniaShumilna">
-                    <div class="img-container">
-                        <img src="./image/tg.png" alt="#" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                    </div>
-                </a>
+    <div class="universe">
+        <canvas id="sc"></canvas>
 
-                <a rel="nofollow" target="_blank" title="Instagram" onclick="fbq('track', 'Contact');" href="https://www.instagram.com/shumilinabobyk?igsh=bmwyb2N3aWxiODc2">
-                    <div class="img-container">
-                        <img src="./image/inst.png" alt="#" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                    </div>
-                </a>
+        <div class="aurora">
+            <div class="ab ab1"></div>
+            <div class="ab ab2"></div>
+            <div class="ab ab3"></div>
+        </div>
 
+        <div class="scene">
+            <div class="card" id="card3d">
+                <div class="card-glow"></div>
 
-                <a rel="nofollow" target="_blank" title="Viber" onclick="fbq('track', 'Contact');"href="viber://add?number=380683368483">
-                    <div class="img-container">
-                        <img src="./image/viber.png" alt="#" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">   
-                    </div>
-                    
-                </a>
+                <div class="card-inner">
 
-                <a rel="nofollow" target="_blank" title="Tiktok" onclick="fbq('track', 'Contact');"href="https://www.tiktok.com/@tanjashumilina?_t=8qsG4SwQfGn&_r=1">
-                    <div class="img-container">
-                        <img src="./image/tiktok.png" alt="#" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                    </div>
-                    
-                </a>
-                <a rel="nofollow" target="_blank" title="Pinterest" onclick="fbq('track', 'Contact');"href="https://www.pinterest.com/shumilinatanja/">
-                    <div class="img-container">
-                        <img src="./image/pinterest.png" alt="#" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                    </div>
-                    
-                </a>
-                <a rel="nofollow" target="_blank" title="WhatsApp" onclick="fbq('track', 'Contact');"href="https://wa.me/+380683368483">
-                    <div class="img-container">
-                        <img src="./image/WhatsApp.png" alt="#" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                    </div>
-                    
-                </a>
-                <a rel="nofollow" target="_blank" title="Messenger" onclick="fbq('track', 'Contact');"href="https://m.me/tanja.shumilinabobyk?hash=AbbA4kncHy8u3i-S&source=qr_link_share">
-                    <div class="img-container">
-                        <img src="./image/messenger.png" alt="#" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                    </div>
-                    
-                </a>
-    
-            </div>
-            
-           <div class="button_transition">
+                    <!-- HEADER -->
+                    <div class="card-header">
+                        <div class="avatar-ring">
+                            <div class="avatar-inner"><img src="img/tania.jpg" alt="avatar"></div>
+                            <div class="avatar-dot"></div>
+                        </div>
+                        <span class="name">Shumilana Tania</span>
+                        <span class="tagline">Beautiful and stylish photos</span>
 
-            <a rel="nofollow" target="_blank" href="https://maps.app.goo.gl/qBEhs1MfEcibBWGZ6">
-                <button class="button-29" role="button" rel="nofollow" target="_blank" >
-                    MY WORK
-                </button>
-            </a>
+                        <!-- Телефон — відкриває програму дзвінка -->
+                        <div>
+                            <a class="phone-chip" href="tel:+380683368483">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#93c5fd"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.54a16 16 0 0 0 5.55 5.55l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z" />
+                                </svg>
+                                068 336 84 83
+                            </a>
+                        </div>
+                    </div>
 
-                    <!-- <a rel="nofollow" target="_blank" href="/">
-                        <button class="button-29" role="button" rel="nofollow" target="_blank" href="/">
-                            офіційний сайт
-                        </button>
-                    </a>
-                    <a rel="nofollow" target="_blank" href="/">
-                        <button class="button-29" role="button" rel="nofollow" target="_blank" href="/">
-                            офіційний сайт
-                        </button>
-                    </a> -->
+                    <!-- DIVIDER -->
+                    <div class="divider-wrap">
+                        <div class="divider-line"></div>
+                    </div>
+
+                    <!-- SOCIALS -->
+                    <div class="socials-section">
+                        <div class="section-label">Connect with me</div>
+                        <div class="socials-grid">
+
+                            <a class="soc-btn tg" href="https://t.me/TaniaShumilna" target="_blank" rel="nofollow">
+                                <span class="soc-icon">
+                                    <svg viewBox="0 0 24 24" fill="#29b6f6">
+                                        <path
+                                            d="M21.3 3L2.4 10.5c-1.3.5-1.3 1.3-.2 1.6l4.7 1.5 1.8 5.5c.2.6.5.8.9.8.3 0 .5-.1.8-.4l2.4-2.3 4.8 3.5c.9.5 1.5.2 1.7-.8l3.1-14.7c.3-1.3-.5-1.9-1.6-1.2z" />
+                                    </svg>
+                                </span>
+                                <span class="soc-name">Telegram</span>
+                            </a>
+
+                            <a class="soc-btn ig" href="https://www.instagram.com/shumilinabobyk" target="_blank"
+                                rel="nofollow">
+                                <span class="soc-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
+                                        <defs>
+                                            <linearGradient id="ig-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                <stop offset="0%" stop-color="#f59e0b" />
+                                                <stop offset="100%" stop-color="#ec4899" />
+                                            </linearGradient>
+                                        </defs>
+                                        <rect x="2" y="2" width="20" height="20" rx="5" stroke="url(#ig-grad)" />
+                                        <circle cx="12" cy="12" r="4" stroke="url(#ig-grad)" />
+                                        <circle cx="17.5" cy="6.5" r="1" fill="#ec4899" />
+                                    </svg>
+                                </span>
+                                <span class="soc-name">Instagram</span>
+                            </a>
+
+                            <a class="soc-btn vb" href="viber://add?number=380683368483">
+                                <span class="soc-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.7"
+                                        stroke-linecap="round">
+                                        <path
+                                            d="M12 2C6.5 2 3 5.1 3 9.5c0 2.7 1.4 5.1 3.6 6.5L6 20l4.4-2.1c.5.1 1 .1 1.6.1 5.5 0 9-3.1 9-7.5S17.5 2 12 2z" />
+                                        <path d="M9 10c.5 2 3 4 5 4.5" />
+                                    </svg>
+                                </span>
+                                <span class="soc-name">Viber</span>
+                            </a>
+
+                            <a class="soc-btn tt" href="https://www.tiktok.com/@tanjashumilina" target="_blank"
+                                rel="nofollow">
+                                <span class="soc-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="#e2e8f0" stroke-width="1.7"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 12a4 4 0 1 0 4 4V4h3a5 5 0 0 0 5 5" />
+                                    </svg>
+                                </span>
+                                <span class="soc-name">TikTok</span>
+                            </a>
+
+                            <a class="soc-btn pt" href="https://www.pinterest.com/shumilinatanja/" target="_blank"
+                                rel="nofollow">
+                                <span class="soc-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="#f87171" stroke-width="1.7"
+                                        stroke-linecap="round">
+                                        <circle cx="12" cy="12" r="9" />
+                                        <path
+                                            d="M10 17c-.5-2 0-4 .5-5.5-.3-.7-.5-1.5 0-2.5 1.5 0 2 1 2 2 1.5-1 4-1.5 4 1.5 0 2.5-2 4-3.5 3.5" />
+                                    </svg>
+                                </span>
+                                <span class="soc-name">Pinterest</span>
+                            </a>
+
+                            <a class="soc-btn wa" href="https://wa.me/380683368483" target="_blank" rel="nofollow">
+                                <span class="soc-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="1.7"
+                                        stroke-linecap="round">
+                                        <path
+                                            d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.2L2 22l4.9-1.3C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2z" />
+                                        <path d="M8.5 9c0 .5.2 1 .5 1.5 1 1.5 2.5 3 4 4l1.5.5" />
+                                    </svg>
+                                </span>
+                                <span class="soc-name">WhatsApp</span>
+                            </a>
+
+                            <a class="soc-btn ms" href="https://m.me/tanja.shumilinabobyk" target="_blank"
+                                rel="nofollow">
+                                <span class="soc-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="1.7"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M12 2C6.5 2 2 6.5 2 12c0 2.5 1 4.8 2.6 6.5L4 22l3.6-1.9C8.9 20.7 10.4 21 12 21c5.5 0 10-4 10-9S17.5 2 12 2z" />
+                                        <path d="M7 14l3-4 3 3 3-4" />
+                                    </svg>
+                                </span>
+                                <span class="soc-name">Messenger</span>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="card-footer">
+                        <a class="cta-btn" href="https://maps.app.goo.gl/qBEhs1MfEcibBWGZ6" target="_blank"
+                            rel="nofollow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            My Work
+                        </a>
+                    </div>
+
+                </div>
             </div>
         </div>
-  
+    </div>
+
+    <script src="main.js"></script>
 </body>
+
 </html>
